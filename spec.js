@@ -16,7 +16,7 @@ describe('Protractor Demo App', function(){
     firstNumber.sendKeys(1);
     secondNumber.sendKeys(2);
     goButton.click();
-    expect(latestResult.getText()).toEqual('3');
+    expect(latestResult.getText()).toEqual('30');
   });
 
   it('should add four and six', function(){
