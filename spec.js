@@ -23,7 +23,7 @@ describe('Protractor Demo App', function(){
     firstNumber.sendKeys(4);
     secondNumber.sendKeys(6);
     goButton.click();    
-    expect(latestResult.getText()).toEqual('100');
+    expect(latestResult.getText()).toEqual('10');
   });
 });
 
